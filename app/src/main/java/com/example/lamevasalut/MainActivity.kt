@@ -33,6 +33,17 @@ class MainActivity : AppCompatActivity() {
         )
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        var medicacio : String;
+        var audicio : String;
+        var benestarMental : String;
+        var constants : String;
+        var controlDeCicle : String;
+        var cor : String;
+        var activitat : String;
+        var altresDades : String;
+        var mesuresCorporals : IntArray;
+
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
